@@ -1,9 +1,10 @@
-
+import Chai from "./Chai"
 function App() {
- // const [count, setCount] = useState(0)
-
   return (
-     <hl> Hello React with vite </hl>
+    <>
+     <h1> Welcome to the world of Chai !</h1>
+     <Chai/>
+    </>
   )
 }
 
