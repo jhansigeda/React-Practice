@@ -1,14 +1,9 @@
 import { useState } from 'react'
 import './App.css'
 
-
 function App() {
   const [color, setColor] = useState("olive")
   const btnColors = ["olive","Red","blue","Yellow","Black","grey","purple"]
-
-  // const changeBackground = (index,color) => {
-  //  //document.getElementById('#mainDiv').style.backgroundColor = color
-  // }
 
   return (
     <>
